@@ -43,19 +43,4 @@ To run the application:
  
 It works on my machine :satisfied:
  
- 
-As my static website contains the wine festival schedule I suppose that the load balancer will be very useful right before the event. A lot of people will want to check the schedule at the same time and the number of visitors will grow significantly.
- 
-Load balancer can be set up in Network sevices -> Load balancing. It is also possible to set it up using Terraform.
- 
-## Bonus 2:
- 
-Create Cloud Function that lists all VPCs and Subnets in the project and saves the data in a file that is stored in a bucket OR saves the data in the database.
- 
-Requirements:
- 
-:small_orange_diamond:Provide source code for the function and any other code in a publicly available repository.
- 
-## Bonus 2 solution:
- 
-Work in progress... :woman_technologist:
+
