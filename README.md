@@ -16,7 +16,7 @@ For the task I used the "Wine Festival Schedule" project that I created as a par
  
 ## Solution:
  
-You can find the source code of the task in this folder. The source code of the website is located in the "website" subfolder.
+You can find the source code of the task in this repo. The source code of the website is located in the "website" folder.
  
 ## Build status:
  
@@ -41,23 +41,8 @@ To run the application:
 9. Commit all files to the repository and push the change to the remote repository.
 10. Go to GitHub and check the Actions tab in your repository.
  
-You can find the output of the test deployment of the task here: <link>
- 
 It works on my machine :satisfied:
  
-## Bonus:
- 
-:small_blue_diamond: Provide and document a mechanism for scaling the service and delivering the content to a larger audience.</br>
-:small_blue_diamond: Demonstrate that you have considered how a real-world solution will be hosted and scaled.</br>
-:small_blue_diamond: Explain your choices.
- 
-## Bonus solution:
- 
-Work in progress... :woman_technologist:
- 
-The final solution isn't ready but you can find a partial solution below 🚧
- 
-For scaling the service and delivering the content to larger audience I would use Cloud Load Balancer. It can distribute users among multiple servers. If the number of visitors grows, the balancer autoscales resources. Moreover, it can direct users to specific servers based on their geographical location.
  
 As my static website contains the wine festival schedule I suppose that the load balancer will be very useful right before the event. A lot of people will want to check the schedule at the same time and the number of visitors will grow significantly.
  
